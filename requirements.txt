@@ -13,6 +13,7 @@ psycopg2-binary
 feedparser
 faker
 hachoir
+aiohtt==3.8.1
 pykeyboard
 pynewtonmath
 ffmpeg-python
@@ -27,6 +28,7 @@ googletrans==4.0.0-rc1
 google-trans-new==1.1.9
 jikanpy
 coffeehouse==2.2.6
+pikepdf==6.0.0.post1
 regex
 bleach
 wikipedia
