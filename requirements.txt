@@ -22,7 +22,6 @@ zalgo-text
 geopy
 nltk
 psutil
-aiohttp>=2.2.5
 Pillow
 CurrencyConverter
 googletrans==4.0.0-rc1
@@ -69,7 +68,6 @@ python-arq
 envparse
 better_profanity
 textblob 
-nudepy
 motor
 gpytranslate
 fontTools
