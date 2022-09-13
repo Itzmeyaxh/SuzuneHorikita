@@ -20,5 +20,5 @@ ENV PATH="/home/bot/bin:$PATH"
 
 # Install requirements
 
-RUN pip3 install -U -r saxsux.txt
+RUN pip3 install -U -r requirements.txt
 CMD bash start 
