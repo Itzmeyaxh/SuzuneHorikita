@@ -20,6 +20,6 @@ ENV PATH="/home/bot/bin:$PATH"
 
 # Install requirements
 
-RUN pip3 install --no-cache-dir --upgrade --requirement
+RUN pip3 install requirement.txt
 
 CMD bash start 
