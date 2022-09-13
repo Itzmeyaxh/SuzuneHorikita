@@ -76,3 +76,5 @@ fuzzysearch
 img2pdf
 multicolorcaptcha
 loguru
+git+https://github.com/aio-libs/aiohttp
+git+https://github.com/pikepdf/pikepdf
