@@ -109,7 +109,7 @@ if ENV:
     BOT_ID = int(os.environ.get("BOT_ID", None))
     ARQ_API_URL = "https://arq.hamker.in"
     ARQ_API_KEY = ARQ_API
-
+    ALLOW_CHATS= os.environ.get("ALLOW_CHATS", True)
     try:
         BL_CHATS = set(int(x) for x in os.environ.get("BL_CHATS", "").split())
     except ValueError:
