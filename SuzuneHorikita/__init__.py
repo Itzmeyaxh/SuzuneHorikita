@@ -119,7 +119,8 @@ else:
     from SuzuneHorikita.config import Development as Config
 
     TOKEN = Config.TOKEN
-
+    LOAD = Config.LOAD
+    NO_LOAD = Config.NO_LOAD
     try:
         OWNER_ID = int(Config.OWNER_ID)
     except ValueError:
