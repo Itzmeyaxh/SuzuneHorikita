@@ -121,6 +121,8 @@ else:
     TOKEN = Config.TOKEN
     LOAD = Config.LOAD
     NO_LOAD = Config.NO_LOAD
+    DB_URI = os.environ.get("SQLALCHEMY_DATABASE_URI")
+    
     try:
         OWNER_ID = int(Config.OWNER_ID)
     except ValueError:
