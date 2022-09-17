@@ -161,17 +161,6 @@ DRAGONS.update(DRAGON)
 DEVS = [1344569458, 1789859817, OWNER_ID]
 DEV_USERS.update(DEVS)
 
-
-if not SPAMWATCH_API:
-    sw = None
-    LOGGER.warning("SpamWatch API key missing! recheck your config")
-else:
-    try:
-        sw = spamwatch.Client(SPAMWATCH_API)
-    except:
-        sw = None
-        LOGGER.warning("Can't connect to SpamWatch!")
-
 from SuzuneHorikita.modules.sql import SESSION
 BOT_API_URL="https://api.telegram.org/bot"
 
